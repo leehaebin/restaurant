@@ -1,0 +1,196 @@
+/* font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Tilt Prism', cursive;
+*/
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.ui-page.ui-body-c{
+    background:url(../images/bg.jpg) no-repeat center;
+    background-size: cover;
+    box-shadow: 0 0 30px 5px rgba(107, 105, 105, 0.25) inset,
+                0 0 0 1px rgba(107, 105,105, 0.4) inset;
+}
+
+.ui-grid-a .ui-block-a,
+.ui-grid-a .ui-block-b{
+    padding-left:2%;
+    padding-right:2%;
+}
+
+#brand{
+    color:rgba(4,4,4,0.7);
+    text-shadow: -1px -1px 10px rgba(107, 105, 105, 0.4);
+    text-align:center;
+}
+#brand h1{
+    border-bottom:4px solid rgba(65, 38, 37, 0.6);
+    background-image: url(../images/restaurant.png);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center;
+    font-size:2.5em;
+    font-weight:700;
+    height:60px; 
+    line-height:50px;
+    display:inline-block;
+    padding-top:20px;
+}
+#brand span{
+    margin-left:25px;
+    margin-right:25px;
+    white-space:nowrap;
+}
+.choice_list span.number{
+    padding:8px 10px 4px;
+    background:rgba(65, 38, 37, 0.7);
+    border-radius:7px;
+    color:#fff;
+    margin-right:10px;
+    font-size:0.6em;
+}
+.choice_list h2{
+    margin-bottom:1.5em;
+}
+.choice_list h3{
+    padding-top:10px;
+    color:rgba(63, 41, 39);
+    font-weight:600;
+}
+#restaurant_v .ui-btn-text{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#restaurant_v .ui-li-thumb, 
+#restaurant_v .ui-listview .ui-li-icon {
+    position: static;
+    margin-left: 1px;
+    top: 0;
+    max-height: 120px;
+    max-width: 120px;
+    padding:5px;
+}
+#restaurant_v .ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, 
+#restaurant_v .ui-li-static.ui-li-has-thumb{
+   padding-left:10px;
+}
+#restaurant_v .ui-link-inherit{
+    width:100%;
+    display:flex;
+}
+#restaurant_v .roadView{
+    width:180px;
+    height:120px;
+    background:#ddd;
+    margin-right:15px;
+}
+#restaurant_v .context-box i{
+    font-size:18px;
+    color:#e8b304;
+}
+
+#restau_infos .roadView2{
+    width:100%;
+    height:180px;
+    background:#ddd;
+}
+
+.ui-icon-tel{
+    background: url(../images/customer-service-fill.svg) no-repeat;
+}
+
+#contact_infos .map{
+    width:100%;
+    height:170px;
+    background:#ddd;
+    margin-top:20px;
+}
+
+#notation{
+    padding-left:3%;
+    padding-right:3%;
+}
+#notation div{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+textarea.ui-input-text{
+    height:150px;
+}
+
+/** select **/
+#note_utilisateur-menu li {
+   padding-left: 120px;
+   position: relative;
+}
+#note_utilisateur-menu li::after{
+    content: "";
+    background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path style='fill:rgb(237,147,17)' d='M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z'></path></svg>") repeat-x;
+    background-position: left center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#note_utilisateur-menu li:first-child::after{
+    width: 20px;
+}
+#note_utilisateur-menu li:nth-child(2)::after{
+    width: 40px;
+}
+#note_utilisateur-menu li:nth-child(3)::after{
+    width: 60px;
+}
+#note_utilisateur-menu li:nth-child(4)::after{
+    width: 80px;
+}
+#note_utilisateur-menu li:last-child::after{
+    width: 100px;
+}
+#reviewForm{
+    margin-bottom: 40px;
+}
+
+
+
+/******** memberlist *********/
+.ui-field-contain label.ui-input-text {
+    vertical-align: middle;
+    display: inline-block;
+    width: 30%;
+    margin: 0 2% 0 0;
+    padding: 5px 10px;
+    box-sizing:border-box;
+    background:#ddd;
+    font-weight:bold;
+}
+.ui-field-contain input.ui-input-text, 
+.ui-field-contain textarea.ui-input-text, 
+.ui-field-contain .ui-input-search, 
+.ui-field-contain div.ui-input-text {
+    width: 55%;
+    display: inline-block;
+}
+.ui-field-contain .ui-input-text#genderlabel{
+   vertical-align:top;
+}
+
+#addressbox.ui-field-contain div.ui-input-text {
+   width:90%;
+   display:block;
+   margin:10px auto;
+}
+
+.ui-li.ui-field-contain #radiobox {
+   display: block;
+    width: 30%;
+    margin: 8px 2% 8px 0;
+    padding: 5px 10px;
+    box-sizing:border-box;
+    background:#ddd;
+    font-weight:bold;
+}
+.text-right{
+	text-alibh:right;
+}
